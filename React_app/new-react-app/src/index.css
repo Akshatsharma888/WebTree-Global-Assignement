@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+
+:root {
+  --gradient: linear-gradient(45deg, #ff7c7d, #ffda67);
+  --card: #272524;
+}
+
+body {
+  background: var(--gradient);
+  color: #fdfcfd;
+}
